@@ -8,8 +8,10 @@ For data binding <layout> will be the root element of the layout xml file. After
   
 # For Example:
  
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
-
+<layout >
+&lt; layout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  &gt;
     <data>
 
         <import type="com.example.khalil.databindingtest.Utils.MyStringUtils" />
@@ -30,5 +32,5 @@ For data binding <layout> will be the root element of the layout xml file. After
         android:orientation="vertical">
         
         </LinearLayout>
+&lt;/layout&gt;
 </layout>
-
